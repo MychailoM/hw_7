@@ -1,0 +1,46 @@
+body {
+
+    display: flex;
+
+}
+
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.car_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: -40px;
+    background-color: rgb(87, 87, 87);
+    border-radius: 20px;
+}
+
+.car_image {
+    width: 270px;
+    height: 140px;
+}
+
+.car_name {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.car_image {
+    border-radius: 8px;
+
+}
+
+h3 {
+    margin: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
